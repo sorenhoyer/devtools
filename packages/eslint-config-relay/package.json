@@ -1,0 +1,17 @@
+{
+  "name": "@sh/eslint-config-relay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-plugin-relay": "^1.3.12"
+  },
+  "peerDependencies": {
+    "eslint-plugin-relay": ">=1.3.12"
+  }
+}

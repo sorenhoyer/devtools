@@ -1,0 +1,36 @@
+{
+  "name": "@sh/eslint-config-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=2.4.0",
+    "@typescript-eslint/parser": ">=2.4.0",
+    "eslint": ">=6.1.0",
+    "eslint-config-airbnb-base": ">=14.0.0",
+    "eslint-config-prettier": ">=6.4.0",
+    "eslint-import-resolver-typescript": ">=2.0.0",
+    "eslint-plugin-import": ">=2.18.2",
+    "eslint-plugin-prettier": ">=3.1.1",
+    "prettier": ">=1.18.2",
+    "typescript": ">=3.6.4"
+  },
+  "dependencies": {}
+}
