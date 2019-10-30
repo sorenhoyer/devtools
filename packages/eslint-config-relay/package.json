@@ -1,5 +1,5 @@
 {
-  "name": "@sh/eslint-config-relay",
+  "name": "@sorenhoyer/eslint-config-relay",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
