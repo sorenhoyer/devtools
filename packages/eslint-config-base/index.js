@@ -14,5 +14,7 @@ module.exports = {
   rules: {
     'prettier/prettier': ['error'],
     'consistent-return': 'off',
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"]
   },
 };
