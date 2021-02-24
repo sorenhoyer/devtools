@@ -5,8 +5,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
     'prettier',
-    'prettier/react',
-    'prettier/@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
   plugins: [
@@ -26,6 +24,7 @@ module.exports = {
     'react/prop-types': 'off',
     '@typescript-eslint/camelcase': 'off',
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"]
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "import/no-unresolved": "off"
   },
 };
